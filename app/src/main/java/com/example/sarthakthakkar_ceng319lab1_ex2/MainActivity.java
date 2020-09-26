@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         fragmentTransaction.add(R.id.displayList, Fragment, "List_Fragment");
         fragmentTransaction.add(R.id.fragLifeCycle, lifeCycleFragment, "frag_Life_cycle");
         fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-        fragmentTransaction.commit(); // save the changes
+        fragmentTransaction.commit(); // save changes
 
 
         protected void onCreate ()
