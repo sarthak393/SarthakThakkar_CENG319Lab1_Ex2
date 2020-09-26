@@ -33,8 +33,14 @@ public class MainActivity extends AppCompatActivity {
         fragmentTransaction.commit(); // save the changes
 
 
-        protected void onCreate
-        }
+        protected void onCreate ()
+    }
+    super.onStart();
+            Toast.makeText(this,"onCreate", Toast.LENGTH_LONG).show();
+
+
+
+
         /** Called when the activity is about to become visible. */
         protected void onStart(){
             super.onStart();
