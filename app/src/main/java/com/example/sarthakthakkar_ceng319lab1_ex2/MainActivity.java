@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //This is an object for the fragment
         ListFragment listFragment = new ListFragment();
         LifeCycleFragment lifeCycleFragment = new LifeCycleFragment();
 
