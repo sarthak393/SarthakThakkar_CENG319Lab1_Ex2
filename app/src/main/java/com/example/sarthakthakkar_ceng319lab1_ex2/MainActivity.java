@@ -32,19 +32,10 @@ public class MainActivity extends AppCompatActivity {
         fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
         fragmentTransaction.commit(); // save changes
 
+        Toast.makeText(this, "onCreate", Toast.LENGTH_LONG).show();
 
-        protected void onCreate ()
-    }
-    super.onStart();
-            Toast.makeText(this,"onCreate", Toast.LENGTH_LONG).show();
-
-
-
-
-        /** Called when the activity is about to become visible. */
-        protected void onStart(){
-            super.onStart();
-            Toast.makeText(this,"onStart", Toast.LENGTH_LONG).show();
+        //Called when the activity is about to become visible.
+        Toast.makeText(this, "onStart", Toast.LENGTH_LONG).show();
 
     }
-}
+    }

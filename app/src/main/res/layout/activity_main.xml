@@ -11,59 +11,21 @@
         android:name="com.example.sarthakthakkar_ceng319lab1_ex2.FirstFragment"
         android:layout_width="388dp"
         android:layout_height="318dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout="@layout/fragment_first" />
 
     <fragment
-        android:id="@+id/fragment2"
+        android:id="@+id/fragment"
         android:name="com.example.sarthakthakkar_ceng319lab1_ex2.SecondFragment"
-        android:layout_width="398dp"
-        android:layout_height="397dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="399dp"
+        android:layout_height="394dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout="@layout/fragment_second" />
-
-    <ListView
-        android:layout_width="215dp"
-        android:layout_height="89dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="26dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="91dp"
-        android:layout_height="33dp"
-        android:layout_marginEnd="303dp"
-        android:layout_marginBottom="176dp"
-        android:text="@string/main_activity"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="86dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="302dp"
-        android:layout_marginBottom="123dp"
-        android:text="@string/onstart"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="83dp"
-        android:layout_height="37dp"
-        android:layout_marginEnd="302dp"
-        android:layout_marginBottom="74dp"
-        android:text="@string/oncreate"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        tools:layout="@layout/fragment_second" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

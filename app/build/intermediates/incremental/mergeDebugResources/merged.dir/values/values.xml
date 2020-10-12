@@ -515,11 +515,12 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
-    <item name="displayList" type="id">1</item>
-    <item name="fragLifeCycle" type="id">1</item>
+    <item name="displayList" type="id">@id/main_activity</item>
+    <item name="fragLifeCycle" type="id">@id/main_activity</item>
     <item name="home" type="id"/>
     <item name="line1" type="id"/>
     <item name="line3" type="id"/>
+    <item name="main_activity" type="id">@id/accelerate</item>
     <item name="motion_base" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
@@ -571,6 +572,7 @@
     <string name="app_name">SarthakThakkar_CENG319Lab1_Ex2</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="main_activity">main activity</string>
+    <string name="oncreate">onCreate</string>
     <string name="onstart">onStart</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
